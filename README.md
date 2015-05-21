@@ -3,11 +3,11 @@ Control of a Kuka youBot from MATLAB using ROS and the Robotics System Toolbox
 
 To use this class it is recommended to configure the ROS_MASTER_URI of your youBot to point at your MATLAB machine then start off by running (in MATLAB)
 
-    rosinit()
+    >> rosinit()
 
 Then on your youBot, launch the basic ROS interface with
 
-    roslaunch youbot_driver_ros_interface youbot_driver.launch
+    $ roslaunch youbot_driver_ros_interface youbot_driver.launch
 
 Now you can use the Youbot class as detailed in the 'help'...
 

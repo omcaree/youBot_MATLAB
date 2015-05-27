@@ -110,7 +110,7 @@ classdef Youbot < handle
             send(this.ArmPublisher,message);
         end
         function StowArm(this)
-            this.ArmPosition([0.011 0.011 -0.016 0.023 2.9]);
+            this.ArmPosition([0.011 0.011 -0.016 0.023 0.12]);
         end
         function MoveGripper(this, position)
             gripper(1) = rosmessage('brics_actuator/JointValue');
